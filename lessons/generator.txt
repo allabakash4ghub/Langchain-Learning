@@ -1,0 +1,15 @@
+In Python, a generator is a special type of function that returns an iterator object,
+allowing you to produce a sequence of values one at a time on demand (lazily) rather than 
+computing and storing them all in memory at once.
+
+Instead of using the return keyword, which terminates a function completely, 
+generators use the yield keyword to temporarily pause execution, send a value back to the caller,
+and save the function's entire state to resume later.
+
+Key Features of GeneratorsMemory 
+Efficiency: They do not store entire data collections in RAM, making them perfect 
+for reading massive log files or endless data streams.
+Lazy Evaluation: Values are calculated only when you explicitly ask for them,
+saving CPU cycles if you stop iterating early.
+State Retention: The function remembers local variables and where it left off between 
+consecutive iterations.

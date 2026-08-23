@@ -1,0 +1,2 @@
+Hello it is a test file on context manager
+This is writing using path lib library method of accessing file
