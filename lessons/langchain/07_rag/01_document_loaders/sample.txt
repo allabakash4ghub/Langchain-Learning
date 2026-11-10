@@ -1,0 +1,5 @@
+LangChain is a framework for developing applications powered by language models.
+
+LangChain provides components for prompts, models, output parsers, document loaders, retrievers, and agents.
+
+Retrieval-Augmented Generation, commonly called RAG, allows an application to retrieve relevant information from external data before generating an answer.
